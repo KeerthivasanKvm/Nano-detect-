@@ -2,16 +2,9 @@
 Admin Panel
 ───────────
 All admin-only commands and callbacks.
-• Duration picker for token generation  (1d / 1w / 1m / 3m / 6m / 1y / Lifetime)
-• Duration picker for giving premium to a specific user
-• Ban / Unban / Broadcast / Stats
 """
 
 import logging
-from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import ContextTypes
-from telegram.constants import ParseMode
-
 from config import ADMIN_IDS
 
 from ui import (
