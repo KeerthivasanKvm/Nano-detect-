@@ -1,9 +1,6 @@
 """
-Bypass Engine
+main file/ STIX 2.1 Engine
 ─────────────
-All bypass functions ported from the reference bypasser.py
-+ Playwright-backed browser fallback
-+ Per-call retry logic
 """
 
 import re
