@@ -1,12 +1,6 @@
 """
-Firebase Firestore  –  Database Layer
+local host  –  Database Layer
 ─────────────────────────────────────
-Collections:
-  users/{uid}        – user profile, counters, referral info
-  tokens/{token}     – one-time-use tokens
-  url_cache/{key}    – bypassed URL cache  (managed by cache.py)
-  stats/global       – aggregate counters
-  bot_settings/main  – runtime settings (maintenance, access mode …)
 """
 
 import logging
